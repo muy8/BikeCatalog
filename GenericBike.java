@@ -1,29 +1,29 @@
-public class ChangingAttributes
+public class GenericBike
 {
 
-	int speed = 4;
-	int brakes = 5;
-	int gears = 6;
+	String speed = 4;
+	String brakes = 5;
+	String gears = 6;
 	String color = "Crimson Red";
 
-	public ChangingAttributes() {}
-	public ChangingAttributes(int setspeed, int setgears, int setbrakes, String setcolor)
+	public GenericBike() {}
+	public GenericBike(String setspeed, String setgears, String setbrakes, String setcolor)
 	{
 		speed = setspeed;
 		brakes = setbrakes;
 		gears = setgears;
 		color = setcolor;
 	}
-	public void changeSpeed(int x)
+	public void changeSpeed(String x)
 	{
 		speed = x;
 	}
 
-	public void changeGears(int x)
+	public void changeGears(String x)
 	{
 		gears = x;
 	}
-	public void changeBrakes(int x)
+	public void changeBrakes(String x)
 	{
 		brakes = x;
 	}

@@ -1,8 +1,8 @@
-public class MountainBike extends ChangingAttributes
+public class MountainBike extends GenericBike
 {
-	int durability = 2;
+	String durability = 2;
 
-	public MountainBike(int setspeed, int setgears, int setbrakes, int setdurability, String setcolor)
+	public MountainBike(String setspeed, String setgears, String setbrakes, String setdurability, String setcolor)
 	{
 		speed = setspeed;
 		brakes = setbrakes;
@@ -11,7 +11,7 @@ public class MountainBike extends ChangingAttributes
 		color = setcolor;
 	}
 	
-	public void Durability(int x)
+	public void Durability(String x)
 	{
 		durability = x;
 	}

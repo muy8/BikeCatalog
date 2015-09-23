@@ -1,9 +1,9 @@
-public class HybridBike extends ChangingAttributes
+public class HybridBike extends GenericBike
 {
-	int offRoadDurability = 2;
-	int onRoadDurability = 3;
+	String offRoadDurability = 2;
+	String onRoadDurability = 3;
 
-	public HybridBike(int setspeed, int setgears, int setbrakes,int setonroaddurability, int  setoffroaddurability, String setcolor)
+	public HybridBike(String setspeed, String setgears, String setbrakes,String setonroaddurability, String  setoffroaddurability, String setcolor)
 	{
 		speed = setspeed;
 		brakes = setbrakes;
@@ -13,11 +13,11 @@ public class HybridBike extends ChangingAttributes
 		color = setcolor;
 	}
 
-	public void changeOffRoadDurability(int x)
+	public void changeOffRoadDurability(String x)
 	{
 		offRoadDurability = x;
 	}
-	public void changeOnRoadDurability(int x)
+	public void changeOnRoadDurability(String x)
 	{
 		onRoadDurability = x;
 	}

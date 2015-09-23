@@ -1,17 +1,30 @@
-import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Bikes
 {
 	public static void main(String args[])
 	{
 
-		ChangingAttributes gBike1 = new ChangingAttributes();
+		ArrayList<String[3]> theBikes = new ArrayList<String[3]>();
+
+		theBikes.add({"hi", "there", "peter"});
+		theBikes.add({"hi", "there", "alex"});
+		theBikes.add({"mateo", "go", "away"});
+		theBikes.add({"guy", "on", "phone"});
+		theBikes.add({"tiny", "cummings", "sucks"});
+
+		{
+			String[][] theBikes = new String[3][4];
+			for(String row = )			
+		}
+
+		GenericBike gBike1 = new GenericBike();
 		gBike1.bikeStats();
 
-		ChangingAttributes gBike2 = new ChangingAttributes(3,4,7,"Navy Blue");
+		GenericBike gBike2 = new GenericBike(3,4,7,"Navy Blue");
 		gBike2.bikeStats();
 
-		ChangingAttributes gBike3 = new ChangingAttributes(5,6,5,"Camo Green");
+		GenericBike gBike3 = new GenericBike(5,6,5,"Camo Green");
 		gBike3.bikeStats();
 
 		MountainBike mountainBike1 = new MountainBike(6,6,6,7,"Neon Pink");
@@ -32,34 +45,6 @@ public class Bikes
 		HybridBike hybridBike3 = new HybridBike(7,6,6,6,7,"Puke Orange");
 		hybridBike3.hbStats();
 
-		Scanner in = new Scanner(System.in);
-		String userInput = in.nextLine();
-
-		userInput = userInput.toLowerCase();
-		
-		String bikename = "bike1";
-		String bikename1 = "bike2";
-		String bikename2 = "bike3";
-		Object b1 = bikename;
-		Object b2 = bikename1;
-		Object b3 = bikename2;
-
-		userInput.bikeStats();
-
-/*
-		if (userInput.equals(bikename))
-		{
-			gBike1.bikeStats();
-		} 
-		else if (userInput.equals(bikename1))
-		{
-			gBike2.bikeStats();
-		} 
-		else if (userInput.equals(bikename2))
-		{
-			gBike3.bikeStats();
-		}
-		*/
 		
 	}
 }
