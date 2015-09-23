@@ -1,4 +1,4 @@
-/*public class UserInput
+public class UserInput
 {
 
 }
