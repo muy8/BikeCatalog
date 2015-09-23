@@ -18,7 +18,7 @@ public class GenericBike
 	{
 		speed = x;
 	}
-
+z
 	public void changeGears(String x)
 	{
 		gears = x;
