@@ -1,9 +1,9 @@
 public class GenericBike
 {
 
-	String speed = 4;
-	String brakes = 5;
-	String gears = 6;
+	String speed = "4";
+	String brakes = "5";
+	String gears = "6";
 	String color = "Crimson Red";
 
 	public GenericBike() {}
@@ -18,7 +18,7 @@ public class GenericBike
 	{
 		speed = x;
 	}
-z
+
 	public void changeGears(String x)
 	{
 		gears = x;

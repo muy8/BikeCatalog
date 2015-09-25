@@ -1,7 +1,7 @@
 public class HybridBike extends GenericBike
 {
-	String offRoadDurability = 2;
-	String onRoadDurability = 3;
+	String offRoadDurability = "2";
+	String onRoadDurability = "3";
 
 	public HybridBike(String setspeed, String setgears, String setbrakes,String setonroaddurability, String  setoffroaddurability, String setcolor)
 	{

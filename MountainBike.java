@@ -1,6 +1,6 @@
 public class MountainBike extends GenericBike
 {
-	String durability = 2;
+	String durability = "2";
 
 	public MountainBike(String setspeed, String setgears, String setbrakes, String setdurability, String setcolor)
 	{
