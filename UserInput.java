@@ -18,7 +18,9 @@ public class UserInput
 		Scanner in = new Scanner(System.in);
 		bob: while(true)
 			{
-				System.out.println("Here are your options: \nBike (1, 2, 3)\nMountain (m)Bike (1, 2, 3)\nHybrid (h)Bike (1, 2, 3)\n*type in stop to terminate shopping*");
+				
+				String asdukvhdlkasjvh = in.nextLine();
+				System.out.println( "Here are your options: \nBike (1, 2, 3)\nMountain Bike (1, 2, 3)\nHybrid Bike (1, 2, 3)\n*type in stop to terminate shopping*\n*click enter to continue shopping after each bike choice*\n");
 
 				String userInput = in.nextLine();
 
