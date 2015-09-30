@@ -25,12 +25,12 @@ public class UserInput
 				String bikename = "bike 1";
 				String bikename1 = "bike 2";
 				String bikename2 = "bike 3";
-				String mbikename = "mbike 1";
-				String mbikename1 = "mbike 2";
-				String mbikename2 = "mbike 3";
-				String hbikename = "hbike 1";
-				String hbikename1 = "hbike 2";
-				String hbikename2 = "hbike 3";
+				String mbikename = "mountain bike 1";
+				String mbikename1 = "mountain bike 2";
+				String mbikename2 = "mountain bike 3";
+				String hbikename = "hybrid bike 1";
+				String hbikename1 = "hybrid bike 2";
+				String hbikename2 = "hybrid bike 3";
 
 
 				if ((userInput.toLowerCase()).equals(bikename))
@@ -55,52 +55,56 @@ public class UserInput
 						System.out.println(bikeStats.bike3Stats[i]);
 					}
 				}
-				else if ((userInput.toLowerCase()).equals("mbike 1"))
+				else if ((userInput.toLowerCase()).equals("mountain bike 1"))
 				{	
 					for(int i = 0; i < bikeStats.mBike1Stats.length; i++)
 					{
 						System.out.println(bikeStats.mBike1Stats[i]);
 					}
 				}
-				else if ((userInput.toLowerCase()).equals("mbike 2"))
+				else if ((userInput.toLowerCase()).equals("mountain bike 2"))
 				{	
 					for(int i = 0; i < bikeStats.mBike3Stats.length; i++)
 					{
 						System.out.println(bikeStats.mBike2Stats[i]);
 					}
 				}
-				else if ((userInput.toLowerCase()).equals("mbike 3"))
+				else if ((userInput.toLowerCase()).equals("mountain bike 3"))
 				{	
 					for(int i = 0; i < bikeStats.mBike3Stats.length; i++)
 					{
 						System.out.println(bikeStats.mBike3Stats[i]);
 					}
 				}
-				else if ((userInput.toLowerCase()).equals("hbike 1"))
+				else if ((userInput.toLowerCase()).equals("hybrid bike 1"))
 				{	
 					for(int i = 0; i < bikeStats.hBike1Stats.length; i++)
 					{
 						System.out.println(bikeStats.hBike1Stats[i]);
 					}
 				}
-				else if ((userInput.toLowerCase()).equals("hbike 2"))
+				else if ((userInput.toLowerCase()).equals("hybrid bike 2"))
 				{	
 					for(int i = 0; i < bikeStats.hBike3Stats.length; i++)
 					{
 						System.out.println(bikeStats.hBike2Stats[i]);
 					}
 				}
-				else if ((userInput.toLowerCase()).equals("hbike 3"))
+				else if ((userInput.toLowerCase()).equals("hybrid bike 3"))
 				{	
 					for(int i = 0; i < bikeStats.hBike3Stats.length; i++)
 					{
 						System.out.println(bikeStats.hBike3Stats[i]);
 					}
 				}
-				if ((userInput.toLowerCase()).equals("stop"))
+				else if ((userInput.toLowerCase()).equals("stop"))
 					{
 						break bob;
 					}
+				else
+				{
+					System.out.println("Are you stupid? That's not a bike you prick!");
+				}
 			}
 	}
 }

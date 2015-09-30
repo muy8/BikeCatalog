@@ -12,6 +12,7 @@ public class BikeStats
 	String[] hBike1Stats;
 	String[] hBike2Stats;
 	String[] hBike3Stats;
+	
 	public BikeStats()
 	{
 		test = new ArrayList<String[]>();
